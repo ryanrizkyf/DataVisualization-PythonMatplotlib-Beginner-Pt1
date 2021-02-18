@@ -1,0 +1,10 @@
+Dalam menganalisa data, sering kali menggunakan visualisasi data untuk 
+memahami karakteristik maupun trend di dalam data yang dimiliki. 
+
+Salah satu library di python yang biasa digunakan untuk keperluan visualisasi data adalah matplotlib.
+
+Dalam modul ini, akan dijelaskan beberapa hal yang dapat dilakukan dengan matplotlib. Di antaranya:
+1. Pengolahan dataset (menggunakan library NumPy & Pandas).
+2. Membuat grafik dasar menggunakan matplotlib.
+3. Melakukan modifikasi komponen visualisasi, seperti axis, labels, title, dan legend.
+4. Menyimpan plot visualisasi yang sudah dibuat
