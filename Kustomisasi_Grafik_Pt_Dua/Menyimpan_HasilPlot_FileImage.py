@@ -26,9 +26,22 @@ plt.yticks(labels, (labels/1000000000).astype(int))
 plt.text(0.45, 0.72, 'The GMV increased significantly on October 2019',
          transform=fig.transFigure, color='red')
 plt.savefig('monthly_gmv.png')
+plt.show()
 
 # Kita bisa menyimpannya ke berbagai tipe file, seringnya sih jpg, png, atau kadang pdf juga bisa.
 # Untuk mengetahui format lengkapnya, kita bisa menggunakan code berikut:
 # plt.gcf().canvas.get_supported_filetypes()
-
-plt.show()
+# tipe-tipe file yang support untuk menyimpan hasil nya :
+# 1. 'ps' : 'Postcript'
+# 2. 'eps' : 'Encapsulated Postcript'
+# 3. 'pdf' : 'Portable Document Format'
+# 4. 'pgf' : 'PGF code for LaTex'
+# 5. 'png' : 'Portable Netwokr Graphics'
+# 6. 'raw' : 'Raw RGBA bitmap'
+# 7. 'rgba' : 'Raw RGBA bitmap'
+# 8. 'svg' : 'Scalable Vector Graphics'
+# 9. 'svgz' : 'Scalable Vector Graphics'
+# 10. 'jpg' : 'Joint Photographic Experts Group'
+# 11. 'jpeg' : 'Joint Photographic Experts Group'
+# 12. 'tif' : 'Tagged Image File Format'
+# 13. 'tiff' : 'Tagged Image File Format'
