@@ -21,3 +21,5 @@ plt.title('Monthly GMV Year 2019')
 plt.xlabel('Order Month')
 plt.ylabel('Total GMV')
 plt.show()
+
+# Sekarang terlihat bahwa chart ini sudah memiliki judul, dan label teks di kedua sumbunya.
